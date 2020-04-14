@@ -1,0 +1,94 @@
+.bg-dark {
+    background-color: #00A2FF !important;
+}
+h1 {
+  margin: 10px;
+}
+form {
+  margin: 10px;
+}
+
+html {
+
+}
+
+.col-sm {
+    border: 1px black solid;
+}
+
+.col-md {
+  text-align: center;
+  padding: 5px;
+}
+
+h4 {
+  font-size: x-large;
+}
+
+.icon {
+  text-align: center;
+  align-self: center;
+}
+
+
+@media screen and (min-width: 300px) {
+  .pull-left {
+    font-size: xx-small;
+    font-family: monospace;
+    text-align: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    width: 300px;
+    margin-top: 5px;
+  }
+  footer {
+    background-color: #555;
+    color: white;
+    padding: 15px;
+    padding-top: 3px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    position: fixed;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .pull-left {
+    font-size: small;
+    font-family: monospace;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    width: 500px;
+    margin-top: 5px;
+  }
+  footer {
+    background-color: #555;
+    color: white;
+    padding: 10px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    position: fixed;
+  }
+
+}
+
+@media screen and (min-width: 600px) {
+
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 900px) {
+
+}
