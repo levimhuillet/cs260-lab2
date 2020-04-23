@@ -11,6 +11,7 @@ document.getElementById("weatherSubmit").addEventListener("click", function(even
     return response.json();
   }).then(function(json) {
     let results = "";
+    results += '<hr>';
     results += '<div class="container">';
     results += '<div class="row">';
     results += '<div class="col-md">';

@@ -1,38 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
-    <meta charset="utf-8"/>
-    <title>Lab 2</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Weather Forecaster</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles.css">
   </head>
+
   <body>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="#">Weather</a>
     </nav>
 
-    <h1>Weather Forecasts</h1>
+    <div class="central">
+      <h1>Weather Forecasts</h1>
 
-    <form>
-      <label>Enter a U.S. city</label>
-      <input id="weatherInput" type="text"></input><br/>
-      <input id="weatherSubmit" type="submit" value="Submit"></input>
-    </form>
+      <form>
+        <label>Enter a U.S. city</label>
+        <input id="weatherInput" type="text"></input><br />
+        <input id="weatherSubmit" type="submit" value="Submit"></input>
+      </form>
+    </div>
 
     <div id="weatherResults">
-  </div>
-  <hr>
+    </div>
+    <hr>
 
     <div id="forecastResults">
-	</div>
-  <br>
-  <br>
-  <br>
+    </div>
+    <br>
+    <br>
+    <br>
 
-  <div class="return">
-    <a href="/" class="return">Return to Landing Page</a>
-  </div>
+    <div class="return">
+      <a href="/" class="return">Return to Landing Page</a>
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js" integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
     <script text="type/javascript" src="./script.js"></script>

@@ -1,19 +1,17 @@
 .bg-dark {
-    background-color: #00A2FF !important;
+  background-color: #00A2FF !important;
 }
+
 h1 {
   margin: 10px;
 }
+
 form {
   margin: 10px;
 }
 
-html {
-
-}
-
 .col-sm {
-    border: 1px black solid;
+  border: 1px black solid;
 }
 
 .col-md {
@@ -31,19 +29,19 @@ h4 {
 }
 
 .return {
-    position: fixed;
-    list-style-type: none;
-    text-align: center;
-    bottom: 100px;
-    left: 50px;
-    margin: 0px;
-    padding: 0px;
-    margin-top: 0px;
-    margin-left: 0px;
-    width: 200px;
-    background-color: #337194;
-    color: black;
-    padding: 2px;
+  position: fixed;
+  list-style-type: none;
+  text-align: center;
+  bottom: 100px;
+  left: 50px;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 200px;
+  background-color: #337194;
+  color: black;
+  padding: 2px;
 }
 
 .return a {
@@ -58,8 +56,10 @@ h4 {
   text-decoration: none;
 }
 
-
-
+.central {
+  text-align: center;
+  margin-bottom: 30px;
+}
 
 @media screen and (min-width: 300px) {
   .pull-left {
@@ -73,6 +73,7 @@ h4 {
     width: 300px;
     margin-top: 5px;
   }
+
   footer {
     background-color: #555;
     color: white;
@@ -98,6 +99,7 @@ h4 {
     width: 500px;
     margin-top: 5px;
   }
+
   footer {
     background-color: #555;
     color: white;
@@ -108,17 +110,10 @@ h4 {
     height: 50px;
     position: fixed;
   }
-
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 600px) {}
 
-}
+@media screen and (min-width: 768px) {}
 
-@media screen and (min-width: 768px) {
-
-}
-
-@media screen and (min-width: 900px) {
-
-}
+@media screen and (min-width: 900px) {}
